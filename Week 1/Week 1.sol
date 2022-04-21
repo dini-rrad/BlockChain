@@ -3,7 +3,7 @@ import sha3
 import os
 
 print("Keccak 256 di python\n")
-namalengkap = input("Masukan lengkap: ")
+namalengkap = input("Masukan Nama Kepanjangan: ")
 os.system('CLS')
 print("Nama lengkap: \n", namalengkap)
 encoded = namalengkap.encode()
