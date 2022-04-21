@@ -8,4 +8,8 @@ balanceReceived += msg.value;
 function getBalance() public view returns(uint) {
 return address(this).balance;
 }
+function withdrawMoney() public {
+address payable to = payable(msg.sender);
+to.transfer(getBalance());
+}
 }
