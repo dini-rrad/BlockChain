@@ -1,1 +1,1 @@
-Pemberian Tugas untuk UTS
+Pemberian Tugas untuk UTS.
